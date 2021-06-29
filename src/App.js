@@ -1,6 +1,6 @@
 import './App.css';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
-import BinanceHome from './components/home/BinanceHome';
+import BinanceHome from './components/pages/index/BinanceHome';
 
 function App() {
   return (

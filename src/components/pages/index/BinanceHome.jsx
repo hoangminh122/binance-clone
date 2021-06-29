@@ -1,15 +1,15 @@
 import React from 'react';
 import { Layout, } from 'antd';
 import  './binance-home-style.scss'
-import HeaderIndex from '../common/header/Header';
-import IntroTitle from '../common/carolsel/IntroTitle';
-import ListSale from '../common/sale/ListSale';
-import MarketTable from '../common/market_trading/MaketTable';
-import AppTrading from '../common/market_trading/AppTrading';
-import FooterIndex from '../common/footer/Footer';
-import Support from '../common/support/Support';
-import InforContact from '../common/support/InforContact';
-import ToRegister from '../common/market_trading/ToRegister';
+import HeaderIndex from '../../common/header/Header';
+import IntroTitle from '../../common/carolsel/IntroTitle';
+import ListSale from '../../common/sale/ListSale';
+import MarketTable from '../../common/market_trading/MaketTable';
+import AppTrading from '../../common/market_trading/AppTrading';
+import FooterIndex from '../../common/footer/Footer';
+import Support from '../../common/support/Support';
+import InforContact from '../../common/support/InforContact';
+import ToRegister from '../../common/market_trading/ToRegister';
 
 
 const { Content } = Layout;
