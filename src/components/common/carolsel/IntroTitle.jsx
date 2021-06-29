@@ -15,8 +15,10 @@ function IntroTitle(props) {
             {/* coin */}
            
         </div>
-        <div style={{padding:'0 30px',background:'#FAFAFB'}} >
-            <CoinTrading/>
+        <div className="site-card-border-less-wrapper" >
+            <div style={{width:'75%'}}>
+                <CoinTrading />
+            </div>
         </div>
         </>
     );

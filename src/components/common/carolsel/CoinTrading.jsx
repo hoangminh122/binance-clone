@@ -22,10 +22,13 @@ function CoinTrading(props) {
         {
             title: 'BTC/USDT + 3.78%',
         },
+        {
+            title: 'BTC/USDT + 3.78%',
+        },
       ];
 
     return (
-        <Carousel autoplay afterChange={onChange}>
+        <Carousel afterChange={onChange} >
             <div>
                 <List style={contentStyle}
                     grid={{ gutter: 16, column: 4 }}
